@@ -4,6 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-Commerce Demo - Facebook Pixel Testing</title>
+    <script>
+      (function(w,d,s,u,id){
+        if (w.fbpixel) return;
+        w.fbpixel = function(){(w.fbpixel.q = w.fbpixel.q || []).push(arguments)};
+        var f = d.getElementsByTagName(s)[0];
+        var j = d.createElement(s);
+        j.async = true;
+        j.src = u + '?id=' + id;
+        f.parentNode.insertBefore(j,f);
+      })(window, document, 'script', 'https://rad-vacherin-408034.netlify.app/', '3904488719768073');
+
+      fbpixel('track', 'PageView');
+    </script>
   </head>
   <body>
     <div id="root"></div>
