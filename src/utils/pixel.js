@@ -38,6 +38,7 @@ export const initPixel = () => {
   );
 
   window.fbq('init', PIXEL_ID);
+  window.fbq('track', 'PageView');
 
   console.log('✅ Facebook Pixel initialized with ID:', PIXEL_ID);
 };
