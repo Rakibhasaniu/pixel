@@ -5,7 +5,7 @@
  * Replace PIXEL_ID with your actual Facebook Pixel ID.
  */
 
-const PIXEL_ID = '3904488719768073';
+const PIXEL_ID = '1038768000129263';
 
 /**
  * Initialize Facebook Pixel

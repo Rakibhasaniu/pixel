@@ -41,6 +41,7 @@ export const CartProvider = ({ children }) => {
     });
 
     // Track AddToCart event with Facebook Pixel
+    console.log("product",product)
     trackAddToCart(product);
   };
 
