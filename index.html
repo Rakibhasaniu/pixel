@@ -8,5 +8,16 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+
+    <script src="https://mymanager.chat/api/partner/embed/loader.js"></script>
+    <div id="mmc-dashboard" style="width:100%;height:600px;"></div>
+    <script>
+      MyManagerChat.embed({
+        container: '#mmc-dashboard',
+        token: '4c556e1e-b9fc-4d39-9546-b1124a94f9b6',
+        view: 'inbox',
+        theme: 'dark'
+      });
+    </script>
   </body>
 </html>
